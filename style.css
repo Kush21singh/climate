@@ -1,0 +1,70 @@
+/* Style the form container */
+.reg-box {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the form header */
+  .reg-box h1 {
+    text-align: center; 
+  }
+  
+  /* Style the labels */
+  .reg-box label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the input fields */
+  .reg-box input[type="text"],
+  .reg-box input[type="email"],
+  .reg-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the submit button */
+  .reg-box button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add responsiveness for small screens */
+  @media (max-width: 600px) {
+    .reg-box {
+      width: 90%;
+    }
+  }
+  /* Style the header */
+header {
+    background-color: #333; /* Dark background color */
+    color: white; /* Text color */
+    padding: 20px; /* Add some padding for spacing */
+    text-align: center; /* Center align text */
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333; /* Dark background color */
+    color: white; /* Text color */
+    padding: 10px; /* Add some padding for spacing */
+    text-align: center; /* Center align text */
+    position: fixed; /* Fix the footer to the bottom */
+    width: 100%; /* Full width */
+    bottom: 0; /* Stick to the bottom */
+  }
+  
